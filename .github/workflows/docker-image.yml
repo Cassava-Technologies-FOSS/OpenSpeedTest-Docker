@@ -39,5 +39,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: liquidtelecom/openspeedtest:latest,liquidtelecom/openspeedtest:${{ steps.calver.outputs.release }}
+          tags: ghcr.io/liquidtelecom/openspeedtest:latest,ghcr.io/liquidtelecom/openspeedtest:${{ steps.calver.outputs.release }}
 
