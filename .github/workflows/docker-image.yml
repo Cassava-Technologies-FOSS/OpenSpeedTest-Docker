@@ -42,5 +42,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ghcr.io/liquidtelecom/openspeedtest:latest,ghcr.io/liquidtelecom/openspeedtest:${{ steps.calver.outputs.release }}
+          tags: ghcr.io/Cassava-Technologies-FOSS/openspeedtest:latest,ghcr.io/Cassava-Technologies-FOSS/openspeedtest:${{ steps.calver.outputs.release }}
 
